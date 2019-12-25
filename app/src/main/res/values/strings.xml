@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">android-github</string>
+
+    <!-- Top trending Activity -->
+    <string name="top_trending_activity_title">Top Trending</string>
+    <string name="general_error_state_message_something_wrong">Sorry, something went wrong</string>
+    <string name="general_error_state_message_try_again">Please try again later.</string>
+    <string name="empty_state_message">No Top Trending Github found.</string>
+
+    <!-- Top trending detail listActivity -->
+    <string name="detail_activity_title">Detail</string>
+    <string name="detail_activity_user_name">Username - </string>
+    <string name="detail_activity_name">Name - </string>
+    <string name="detail_activity_url">URL - </string>
+    <string name="detail_activity_avatar">Avatar - </string>
+    <string name="detail_activity_repo_name">Repo Name - </string>
+    <string name="detail_activity_repo_description">Repo Description - </string>
+    <string name="detail_activity_repo_url">Repo URL - </string>
+
+</resources>
