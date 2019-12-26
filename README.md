@@ -1,6 +1,6 @@
 # Android Github - Top Trending Users
 
-**Covered As part of this project**
+## Covered As part of this project
 - Clean architecture with MVVM
 - 100% Kotlin code (except 1 AutoValue model class)
 - Android arch components - ViewModel, LiveData, etc
@@ -11,7 +11,7 @@
 - AutoValue and Gson for Data model parsing
 - Mockito & JUnit framework for Testing
 
-**App Structure**
+## App Structure
 Each feature screen will be added as new *package* in project. eg: toptrendingdetail, toptrendinglist
 Each feature *package* will follow - Clean architecture with MVVM.
 
@@ -32,7 +32,7 @@ Each feature *package* will follow - Clean architecture with MVVM.
 * Cleanup: trackUseCase() method for registering UseCases. cleanup() method will make sure all UseCases unsubscribed their RX observables
 
 #### Repositories
-Network or memory repositories are only contacted from *UseCases*. They work synchronously making them very clean and easy to understand
+* Network or memory repositories are only contacted from *UseCases*. They work synchronously making them very clean and easy to understand
 
 #### Networking
 * Networking is provided using Retrofit interface `GithubApi` under core/network/api
