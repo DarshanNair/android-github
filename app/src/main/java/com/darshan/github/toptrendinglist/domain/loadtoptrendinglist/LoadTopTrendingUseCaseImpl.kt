@@ -18,8 +18,7 @@ class LoadTopTrendingUseCaseImpl @Inject constructor(
     private val topTrendingSharedPrefRepository: TopTrendingSharedPrefRepository,
     @ForIoThread private val ioScheduler: Scheduler,
     @ForMainThread private val mainScheduler: Scheduler
-) : BaseUseCase(compositeDisposable),
-    LoadTopTrendingUseCase {
+) : BaseUseCase(compositeDisposable), LoadTopTrendingUseCase {
 
     private var callback: Callback? = null
 

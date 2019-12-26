@@ -12,8 +12,7 @@ class TopTrendingListViewModelImpl @Inject internal constructor(
     private val loadTopTrendingUseCase: LoadTopTrendingUseCase,
     private val sortTopTrendingUseCase: SortTopTrendingUseCase,
     private var searchTopTrendingUseCase: SearchTopTrendingUseCase
-) : TopTrendingListViewModel(), LoadTopTrendingUseCase.Callback,
-    SearchTopTrendingUseCase.Callback, SortTopTrendingUseCase.Callback {
+) : TopTrendingListViewModel() {
 
     private var topTrendingUsers: List<TopTrending.User> = emptyList()
 
@@ -54,7 +53,7 @@ class TopTrendingListViewModelImpl @Inject internal constructor(
         super.onCleared()
         loadTopTrendingUseCase.cleanup()
         sortTopTrendingUseCase.cleanup()
-        sortTopTrendingUseCase.cleanup()
+        searchTopTrendingUseCase.cleanup()
     }
 
     override fun sortTopTrendingUsers() {

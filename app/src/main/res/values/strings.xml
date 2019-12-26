@@ -9,12 +9,12 @@
 
     <!-- Top trending detail listActivity -->
     <string name="detail_activity_title">Detail</string>
-    <string name="detail_activity_user_name">Username - </string>
-    <string name="detail_activity_name">Name - </string>
-    <string name="detail_activity_url">URL - </string>
-    <string name="detail_activity_avatar">Avatar - </string>
-    <string name="detail_activity_repo_name">Repo Name - </string>
-    <string name="detail_activity_repo_description">Repo Description - </string>
-    <string name="detail_activity_repo_url">Repo URL - </string>
+    <string name="detail_activity_user_name">Username -</string>
+    <string name="detail_activity_name">Name -</string>
+    <string name="detail_activity_url">URL -</string>
+    <string name="detail_activity_avatar">Avatar -</string>
+    <string name="detail_activity_repo_name">Repo Name -</string>
+    <string name="detail_activity_repo_description">Repo Description -</string>
+    <string name="detail_activity_repo_url">Repo URL -</string>
 
 </resources>
