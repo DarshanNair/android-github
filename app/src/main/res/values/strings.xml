@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">android-github</string>
+    <string name="app_name">DarshanGithub</string>
 
     <!-- Top trending Activity -->
     <string name="top_trending_activity_title">Top Trending</string>
