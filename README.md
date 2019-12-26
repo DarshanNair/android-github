@@ -35,7 +35,11 @@ Each feature *package* will follow - Clean architecture with MVVM.
 * Network or memory repositories are only contacted from *UseCases*. They work synchronously making them very clean and easy to understand
 
 #### Networking
-* Networking is provided using Retrofit interface `GithubApi` under core/network/api
+* Networking is provided using Retrofit interface `GithubApi` in *core/network/api* package
+
+#### Model
+* can be found in *core/network/model* package
+* built on auto-value and parcelable
 
 #### Dependency Injection
 * can be found under *injection* package
@@ -49,5 +53,5 @@ Each feature *package* will follow - Clean architecture with MVVM.
 * Have covered one-one unit test for each Domain, ViewModel and Repository
 
 
-#### Dagger Scoping
+#### Dagger Scopes
 * 2 Levels of Scoping - Application and Activity
